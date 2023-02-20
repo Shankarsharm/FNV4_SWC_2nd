@@ -25,14 +25,6 @@ jobs:
           echo ${{ github.repository }}
           echo ${{ github.action_path }}
           cd ${{ github.action_repository }}
-          ls
-          cd work
-          ls
-          cd FNV4_SWC_Test
-          ls
-          cd FNV4_SWC_Test
-          ls
-          pwd
           echo ${{ secrets.ACTIONS_KEY }}
       - name: Run Shell Script
         id: capture
@@ -41,4 +33,4 @@ jobs:
           ls
           pwd
           chmod +x sync.sh
-          ./sync.sh ${{ secrets.ACTIONS_KEY }} FNV4_SWC_Test $GITHUB_WORKSPACE
+          ./sync.sh ${{ secrets.ACTIONS_KEY }} FNV4_SWC_2nd $GITHUB_WORKSPACE

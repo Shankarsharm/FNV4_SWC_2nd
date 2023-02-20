@@ -2,9 +2,9 @@
   Repository: github.com/Shankarsharm/FNV4_Comp1st.git
   Branch: Jenkins
   lastbuild: cea7b5659fa576b50a083b32dcc6228462b1f2de
-  Sync_dir: all
+  Sync_dir: doc,bin
 - Name: FNV4_Comp_3rd
   Repository: github.com/Shankarsharm/FNV4_Comp_3rd.git
   Branch: Jenkins
   lastbuild: cea7b5659fa576b50a083b32dcc6228462b1f2de
-  Sync_dir: test
+  Sync_dir: bin,src,model
